@@ -1,0 +1,95 @@
+body,
+html {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#map-canvas {
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 20px;
+}
+
+table td {
+  padding: 3px 5px;
+}
+
+label {
+  display: inline-block;
+  width: 160px;
+  font-size: 11px;
+  color: #777;
+}
+
+input {
+  border: 1px solid #ccc;
+  width: 170px;
+  padding: 3px 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+}
+
+.pac-container {
+  background-color: #fff;
+  z-index: 1000;
+  border-radius: 2px;
+  font-size: 11px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 350px;
+}
+
+.pac-icon {
+  width: 15px;
+  height: 20px;
+  margin-right: 7px;
+  margin-top: 6px;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png);
+  background-size: 34px;
+}
+
+.pac-icon-marker {
+  background-position: -1px -161px;
+}
+
+.pac-item {
+  cursor: pointer;
+  padding: 0 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: left;
+  border-top: 1px solid #e6e6e6;
+  color: #999;
+}
+
+.pac-item.custom {
+  background-color: #FFF9C4;
+}
+
+.pac-item:hover {
+  background-color: #efefef;
+}
+
+.pac-item-error,
+.pac-item-error:hover {
+  color: #aaa;
+  padding: 0 5px;
+  cursor: default;
+  background-color: #fff;
+}

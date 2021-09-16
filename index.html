@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GG map Autocomplete</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="map-canvas"></div>
+<table>
+  <tr>
+    <td>
+      <label for="address">Address:</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input id="address" placeholder="Enter address" type="text" tabindex="1" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <div id="results" class="pac-container"></div>
+    </td>
+  </tr>
+</table>
+<script defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=KEY_API&language=th&libraries=places"></script>
+
+<script defer src="./main.js"></script>
+</body>
+</html>
